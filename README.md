@@ -13,3 +13,18 @@ Los numeros enteros se representan en Python como **int**
 
 *Floating-point values* Son aquellos numeros que tinen decimales. En Python se representan como **float** y la separacion entre la parte entera y la parte decimal se realiza con un punto. 
 
+# Dia 4
+## Usa la funcion Type() para imprimir el tipo de una variable booleana
+### type() function in Python
+
+type() method returns class type of the argument(object) passed as parameter. type() function is mostly used for debugging purposes.
+
+Two different types of arguments can be passed to type() function, single and three argument. If single argument type(obj) is passed, it returns the type of given object. If three arguments type(name, bases, dict) is passed, it returns a new type object.
+
+type(object)
+type(name, bases, dict)
+
+Parameters :
+name : name of class, which later corresponds to the __name__ attribute of the class.
+bases : tuple of classes from which the current class derives. Later corresponds to the __bases__ attribute.
+dict : a dictionary that holds the namespaces for the class. Later corresponds to the __dict__ attribute.
