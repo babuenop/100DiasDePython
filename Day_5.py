@@ -10,6 +10,6 @@ for i in lista:
         menor=lista[i]
 print(menor)
 
-# Otra solución
+# Solution by @pythonlapaz
 lista = [0,1,0,2,1,3]
 print(min(lista))

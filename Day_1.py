@@ -6,3 +6,8 @@
 DiasDePython = 100
 print (DiasDePython)
 print (float(DiasDePython))
+
+
+# Solution by @pythonlapaz
+a=1234
+print(a)

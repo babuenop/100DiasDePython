@@ -18,3 +18,7 @@ print (fraseDivertida)
 # Resultado
 # Double Quotation Marks: ""
 # Single Quotation Marks: ''
+
+# Solution by @pythonlapaz
+frase="Wiii python es genial"
+print(frase)

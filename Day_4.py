@@ -11,3 +11,7 @@ print (type(falso))
 ##    print ("Es Booleana")
 ## else:
 ##    print("No es Booleana")
+
+# Solution by @pythonlapaz
+verdad = True
+print(type(verdad))
