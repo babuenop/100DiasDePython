@@ -1,6 +1,8 @@
 # 100 Dias De Python 
 100 Dias de Python con la comunidad de @PythonLaPaz
 
+En la carpeta pruebas se encuentran practicas extra que he encontrado como complemento de practica a estos 100 dias del reto. 
+
 # Dia 1
 ## Declarar una variable numerica e imprimirla. 
 
