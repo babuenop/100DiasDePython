@@ -51,4 +51,29 @@ print(variable[-3:])
 amy
 ```
 
-ictionary that holds the namespaces for the class. Later corresponds to 
+## Day 16 String count() Method
+
+**Syntax**
+```slice(start, end, step)```
+
+**Parameter Values**
+| Parameter | Description |
+| ----------- | ----------- |
+| Start | Required. A String. The string to value to search for |
+| end | Optional. An Integer. The position to start the search. Default is 0 |
+| step | Optional. An Integer. The position to end the search. Default is the end of the string |
+
+**Example**
+```Python
+# 100DiasDePython
+# Dia_16
+# Declara una variable de tipo cadena, encuentra la cantidad de veces que aparece la letra a
+# Alberto Bueno (babuenop)#6398
+
+variable = "Vamos a contar las letras a que aparecen en esta cadena"
+print(variable.count('a'))
+
+#Ressultado= 11
+```
+
+
