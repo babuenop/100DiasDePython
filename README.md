@@ -76,4 +76,12 @@ print(variable.count('a'))
 #Ressultado= 11
 ```
 
+## Day 18 
+La función min() devuelve el menor valor de una lista, en el caso de cadenas devuelve el carácter con menor valor en orden lexicográfico
+La función max() hace lo mismo pero  devuelve el carácter con mayor valor en orden lexicográfico
 
+**Example**
+Declara una variable de tipo cadena, encuentra el primer y ultimo caracter en orden lexicografico sin usar ciclos e imprimelos
+cadena = "españa"
+# Solucion 
+print (min(cadena) + max(cadena))
