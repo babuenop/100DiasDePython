@@ -11,3 +11,9 @@ s1="".join(lower)
 s2="".join(upper)
 print (s1 +" "+ s2)
 #Output: pythonista PYTHONISTA
+
+# Solucion @pythonlapaz
+a="hjfacetiluzislcafiesdolavedfiedesno"
+minusculas=s[::2]
+mayusculas=s[1::2]
+print(minusculas, mayusculas)
