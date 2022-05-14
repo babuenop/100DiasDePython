@@ -5,3 +5,4 @@
 
 lista = ['Tomate', 'Pepino', 'Piña', 'Narajas', 'Leche', 'huevos']
 print(lista[1:4:1])
+
