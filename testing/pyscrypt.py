@@ -34,4 +34,14 @@ def day16(*ags, **kws):
 def day17(*ags, **kws):
     var = input17.value
     out17.write(var.count('a'))
+
+#Calcula el area del circulo     
+def day25(*args, **kws):
+    pi = 3.1416
+    diameter = 3
+    radius = diameter / 2
+    area = pi * radius**2
+    print(area)
     
+    
+ 
