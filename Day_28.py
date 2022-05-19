@@ -1,8 +1,7 @@
 ''' 
 100DiasDePython - Dia_28   
 ------------------------
-Utiliza la lista de compras de compras del reto anterior para remover el primer elemento de la lista. 
-Sin usar ciclos e imprime la lista. 
+Utiliza la lista de compras de compras del reto anterior para remover el primer elemento de la lista sin usar ciclos e imprime la lista. 
 Alberto Bueno (babuenop)#6398 
 
 '''
