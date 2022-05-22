@@ -1,5 +1,5 @@
 ''' 
-100DiasDePython - Dia_31
+100DiasDePython - Dia_32
 ------------------------
 Declara dos listas, una vacia y la contra con elementos. 
 Convierte ambas listas en booleanos. 
