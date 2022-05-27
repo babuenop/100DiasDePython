@@ -1,8 +1,8 @@
 ''' 
-100 Dias De Python - Dia 36
+100 Dias De Python - Dia 37
 ------------------------
-Utiliza el diccionario de palabras del reto anterior para eliminar el primer elemento del diccionario 
-Imprime la cantidad de elementos del diccionario. 
+Utiliza el diccionario de palabras del reto anterior para eliminar todos los elementos del diccionario
+Sin usar ciclos imprime el resultado. 
 Alberto Bueno (babuenop)#6398 
 
 '''
@@ -16,7 +16,7 @@ Words = {
     "Objeto" : "Instancia de una clase",
     }
 
-del Words["Clase"]
-print(len(Words))
+Words.clear()
+print(Words)
 
 
