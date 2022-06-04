@@ -1,5 +1,5 @@
 ''' 
-100 Dias De Python - Dia 40
+100 Dias De Python - Dia 42
 ------------------------
 Utiliza el conjunto del reto anterior, para encontrar la union de ambos conjuntos sin usar ciclos e imprime el resultado
 Alberto Bueno (babuenop)#6398 

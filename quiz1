@@ -1,0 +1,16 @@
+from collections import Counter 
+
+def find_anagram(word, anagram):
+    c1 = Counter(word.lower())
+    c2 = Counter(anagram.lower())
+    
+    if len(word) != len(anagram):
+        return False
+    else: 
+        return c1 == c2
+    
+  
+print(find_anagram("hello", "check"))
+print(find_anagram("below", "elbow"))
+print (Counter("below"))  
+print (Counter("elbow"))  
