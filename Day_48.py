@@ -16,4 +16,11 @@ for i in numeros:
 print(numeros)
 print(pares)
 
-
+# Solution 
+pares = []
+for i in range(5):
+    if i % 2 == 0 :
+       pares.append(True)
+    else:
+       pares.append(False)
+print(pares)

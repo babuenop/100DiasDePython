@@ -6,7 +6,7 @@ Alberto Bueno (babuenop)#6398
 
 '''
 
-numeros = list(range(2,11,2))
+numeros = list(range(1,6))
 print(numeros)
 
 
