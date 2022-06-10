@@ -9,9 +9,11 @@ Alberto Bueno (babuenop)#6398
 
 '''
 # volume = π · r2 · h
-import math
+from math import pi
+
 def volume(b, a):
-    return (math.pi * (b / 2)**2 * a)
+    radio = b/2
+    return (pi * (radio)**2 * a)
 
 result = volume(5,7)
 
