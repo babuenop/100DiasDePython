@@ -12,7 +12,7 @@ def dec_a_bin (a: int):
     Args:
         a : Numero decimal 
     Returns: 
-        valor binario
+        binario
     '''
 
     if a == 0:
