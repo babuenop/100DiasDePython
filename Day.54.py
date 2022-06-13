@@ -13,10 +13,10 @@ def cuenta_vocales (lista):
     return: dict
     '''
     for cadena in lista:
-        vocales = 0
-        for n in "aeiou":
-            vocales += cadena.count(n)    
-            salida[cadena] = vocales
+        contador = 0
+        for vocal in "aeiou":
+            contador += cadena.count(vocal)    
+            salida[cadena] = contador
     return (salida)
 
 entrada=['Python', 'es', 'cool']
