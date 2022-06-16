@@ -1,6 +1,7 @@
 ''' 
 100 Dias De Python - Dia 56
 ---------------------------
+Funcion lambda ppara encontrar la raiz cuadrada de una lista de numeros
 '''
 import math
 
