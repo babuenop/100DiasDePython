@@ -6,7 +6,7 @@ Imprime una lista con las cadenas validas
 '''
 import re 
 
-correos = ['python3.10', 'Python3', 'ProgramAndoAndo', 'jun2022', '#100diasdecodigo', 'Felicidades']
-patron = "^[a-zA-Z0-9_]*$"
+correos = ['python3.10', 'Python3', 'ProgramAndoAndo', 'jun2022', '#100diasdecodigo', 'Felicidades!']
+patron = "^\w*$"
 validos = [c for c in correos if re.search(patron, c)]
 print(validos)
