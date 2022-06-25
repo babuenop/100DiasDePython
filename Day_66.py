@@ -7,5 +7,5 @@ Imprime una lista con las cadenas validas
 import re 
 
 cadenas = ['python3.10', 'Python3', 'ProgramAndoAndo', 'jun2022', '#100diasdecodigo', 'Felicidades!']
-validos = [re.sub('\W+','',telefono) for telefono in cadenas]
+validos = [re.sub('\W+','',cadena) for cadena in cadenas]
 print(validos)
