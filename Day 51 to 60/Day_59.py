@@ -7,7 +7,7 @@ Imprime el resultado
 '''
 
 list = [("Quimica",88), ("Fisica",90),("Lenguaje",97)]
-list.sort(key=lambda x:x[1], reverse=True)
+list.sort(key=lambda x:x[1])
 print(list)
 
 
