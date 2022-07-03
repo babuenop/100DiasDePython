@@ -9,5 +9,3 @@ a = [1, 3, 5]
 b = [2, 4, 6]
 result=list(itertools.product(a , b))
 print(result)
-
-list(input)
