@@ -6,5 +6,5 @@ Imprime el resultado en una lista
 '''
 import itertools
 lista = [(2,4,6),(7,8,5,6),(5,10)]
-maximos= list(max(lista) for lista, k in itertools.groupby(lista))
+maximos= list(max(lista) for lista ,k in itertools.groupby(lista))
 print(maximos)
