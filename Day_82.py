@@ -7,6 +7,6 @@ Imprime el resultado en una cadena
 '''
 from datetime import datetime
   
-time = datetime.now()
-formatingDate = time.strftime("%d %B %Y, %l:%M:%S %p")  
+time = datetime.today()
+formatingDate = time.strftime('%d/%m/%Y')  
 print(formatingDate)
