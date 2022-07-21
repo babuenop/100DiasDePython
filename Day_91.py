@@ -15,3 +15,15 @@ for num in Square():
     if num > 100:
          break    
     print(num)
+    
+# Solución correcta
+
+def Cuadrados(limite):
+    i=1
+    while i<= limite:
+        yield i * i
+        i+=1
+
+lista = list(Cuadrados(10))
+print (lista)
+
