@@ -6,7 +6,7 @@ Imprime el resultado en una lista
 '''
 
 def saludos(*args):
-    for i in range(len(args)):
-        lista = ["Hola "+args[i] for i in range(len(args))]
-        return(print(lista))        
+    lista = ["Hola "+args[i] for i in range(len(args))]
+    return(print(lista))     
+       
 saludos("Katy","Ariel")
