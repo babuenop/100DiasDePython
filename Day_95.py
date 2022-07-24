@@ -6,10 +6,10 @@ Crea una funcion que use argumentos arbitrarios para recibir N-numeros y determi
 Imprime el resultado 
 '''
 
-def saludos(*args):
+def funcion(*args):
     lista = [*args]
     resultado = {"mayor": max(lista), "menor":min(lista)}
     return(print(resultado))     
        
-saludos(9, 10,-1,3,5,-2,8)
+funcion(9, 10,-1,3,5,-2,8)
 
