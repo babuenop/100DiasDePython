@@ -12,6 +12,6 @@ def lazy():
     for i in range(0,50000000):
         suma+=i
 
-print(timeit.timeit(lazy))
+print(timeit.default_timer(lazy))
 
 
