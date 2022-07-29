@@ -8,7 +8,7 @@ import traceback
 a = 7
 
 try:
-    b= a/0
+    b= a/00
 except Exception:
     traceback.print_exc()
 else:
